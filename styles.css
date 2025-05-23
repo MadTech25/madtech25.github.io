@@ -1,6 +1,6 @@
 <!-- styles.css -->
 body.hello-page {
-  background: url('images/space_tech_workbench.png') center center / cover no-repeat fixed;
+  background-color: #0b0c2a;
   color: #e0e0e0;
   font-family: 'Yeseva One', serif;
   letter-spacing: 0.05em;
@@ -27,6 +27,14 @@ nav a {
   max-width: 800px;
   margin: 0 auto;
   animation: pulseGlow 4s ease-in-out infinite;
+}
+
+.intro .workbench-img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 15px rgba(255, 191, 0, 0.5);
+  border-radius: 10px;
 }
 
 @keyframes pulseGlow {
