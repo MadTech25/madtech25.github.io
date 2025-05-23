@@ -154,6 +154,7 @@ body.projects-page {
 body.resume-page {
   background: url('images/ic_miami.jpg') center center / cover no-repeat fixed;
   color: #e0e0e0;
+  font-family: 'Yeseva One', serif;
 }
 
 .resume-header {
@@ -165,6 +166,7 @@ body.resume-page {
 }
 
 .resume-content {
+  color: #111;
   padding: 2rem;
   max-width: 900px;
   margin: auto;
@@ -174,7 +176,7 @@ body.resume-page {
 }
 
 .resume-content a {
-  color: #ffbf00;
+  color: #333;
   font-weight: bold;
   text-decoration: underline;
 }
