@@ -132,9 +132,18 @@ body.projects-page {
 .project-img {
   width: 100%;
   max-width: 320px;
+  height: auto;
+  border-radius: 8px;
   margin: 1rem auto;
   display: block;
   box-shadow: 0 0 12px rgba(255, 191, 0, 0.3);
+}
+
+/* Responsive Fix */
+@media (max-width: 768px) {
+  .project-img {
+    max-width: 100%;
+  }
 }
 
 
