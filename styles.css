@@ -157,6 +157,7 @@ body.resume-page {
   font-family: 'Yeseva One', serif;
 }
 
+/* Header Section */
 .resume-header {
   background: url('images/heaven.jpg') center/cover no-repeat;
   color: #fff;
@@ -165,18 +166,42 @@ body.resume-page {
   box-shadow: inset 0 -4px 10px rgba(0,0,0,0.6);
 }
 
+/* Resume Content Container */
 .resume-content {
-  color: #111;
+  color: #f0f0f0;
   padding: 2rem;
   max-width: 900px;
   margin: auto;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.6);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(255,255,255,0.1);
 }
 
+/* Headings inside resume */
+.resume-content h2 {
+  color: #ffffff;
+}
+
+/* Paragraph text */
+.resume-content p {
+  color: #dddddd;
+}
+
+/* PDF download link */
 .resume-content a {
-  color: #333;
+  color: #ffbf00;
   font-weight: bold;
   text-decoration: underline;
+}
+
+/* Embedded PDF iframe */
+.resume-content iframe {
+  display: block;
+  width: 100%;
+  max-width: 900px;
+  height: 600px;
+  margin: 2rem auto;
+  background: #fff;
+  border: 1px solid #666;
+  box-shadow: 0 0 10px rgba(255,255,255,0.1);
 }
